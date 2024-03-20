@@ -1,0 +1,124 @@
+/* Mobile First */
+
+/*@media only screen and (max-width:500px){
+
+}*/
+
+
+/*@media screen and (min-width: 950px){*/
+
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    body {
+        position:static;
+    }
+    
+    header {
+        width: 50%;
+        height: 200px;
+        background-color: #F1EF99;
+        float: left;
+    }
+    
+    #logo {
+        float: left;
+        margin-left: 30px;
+    }
+    
+    #heading1 {
+        float: left;
+        font-family: sans-serif;
+        color: #49717B;
+       position: relative;
+        margin-top: 113px;
+        font-size: 18pt;
+        font-weight: 800;
+        margin-left: 90px;
+    }
+    
+    nav {
+        width: 50%;
+        height: 200px;
+        background-color: #F1EF99;
+        float: left;
+    }
+    
+    ul{
+        position: relative;
+        margin-top: 113px;
+    }
+    
+    li {
+        display: inline;
+        position: relative;
+        font-family: sans-serif;
+        color: #49717B;
+        font-size: 18pt;
+        font-weight: 800;
+        margin-left: 15px;
+        padding: 10px;
+    }
+    
+    li:hover {
+        background-color: #EBC49F;
+        border-bottom: 20px solid #D37676;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #49717B;
+    }
+    
+    main {
+        background-color: #EBC49F;
+        width: 100%;
+        height: 1250px;
+       
+    }
+    
+    section {
+        background-color: rgb(211, 118, 118, 0.4);
+        width: 85%;
+        height: 450px;
+        margin-left: 100px;
+        position: absolute;
+    }
+    
+    #bloque1 {
+        margin-top: 250px;
+    }
+    
+    #bloque2 {
+        margin-top: 750px;
+    }
+    
+    
+    footer {
+        background-color: #89B9AD;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .responsive-img {
+        width: 30%;
+        height: 30%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    #flecha-div {
+        position: fixed;
+        margin-top: 580px;
+        margin-left: 1400px;
+    }
+    
+    #flecha-img {
+        width: 30%;
+        height: 30%;
+    }
+
+
+
+
