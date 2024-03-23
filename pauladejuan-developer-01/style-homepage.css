@@ -6,6 +6,10 @@
         box-sizing: border-box;
         margin: 0px;
     }
+
+    html {
+        scroll-behavior: smooth;
+         }
     
     body{
         background-color: #F1EF99;
@@ -123,7 +127,11 @@
         box-sizing: border-box;
         margin: 0px;
     }
-        
+
+    html {
+        scroll-behavior: smooth;
+         }
+    
     header {
         width: 50%;
         height: 200px;
