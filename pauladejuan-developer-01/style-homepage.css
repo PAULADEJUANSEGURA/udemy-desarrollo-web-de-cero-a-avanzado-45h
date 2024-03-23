@@ -6,11 +6,7 @@
         box-sizing: border-box;
         margin: 0px;
     }
-
-    html {
-        scroll-behavior: smooth;
-         }
-    
+  
     body{
         background-color: #F1EF99;
     }
